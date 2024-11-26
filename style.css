@@ -1,0 +1,29 @@
+.display {
+    background-color: rgb(241, 241, 245); /* Bleu */
+    color: rgb(255, 255, 255); /* Blanc */
+    padding: 15px;
+    width: 250px;
+    text-align: right;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    width: 67px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 0); /* Jaune */
+    color: black;
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(182, 178, 178); /* Couleur légèrement plus claire au survol */
+}
+
+button:active {
+    background-color: rgb(61, 31, 31); /* Couleur plus foncée à l'activation */
+}
